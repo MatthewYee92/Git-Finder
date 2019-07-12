@@ -14,7 +14,7 @@ const Navbar = ({ icon,title }) => {
 
 // show props statically, still can pass in props to overwrite this
 Navbar.defaultProps = {
-  title: "Github Finder",
+  title: "Git Finder",
   icon: "fab fa-github"
 };
 
