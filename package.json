@@ -1,5 +1,6 @@
 {
   "name": "github-finder",
+  "homepage" : "http://matthewyee92.github.io/git-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
