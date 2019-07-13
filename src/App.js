@@ -18,19 +18,6 @@ class App extends Component {
     repos: []
   };
 
-  // async componentDidMount() {
-  //   this.setState({ loading: true });
-
-  //   const res = await axios.get(
-  //     `https://api.github.com/users?client_id=$
-  //       {process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=$
-  //       {process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
-  //   );
-
-  //   this.setState({ users: res.data, loading: false });
-  // }
-
-  // Search Github Users
   searchUsers = async text => {
     this.setState({ loading: true });
 
@@ -41,7 +28,6 @@ class App extends Component {
     this.setState({ users: res.data.items, loading: false });
   };
 
-  // Get a single Github User
   getUser = async username => {
     this.setState({ loading: true });
 
@@ -63,14 +49,10 @@ class App extends Component {
     this.setState({ repos: res.data, loading: false });
   };
 
-  // Clear users from stats
   clearUsers = () => this.setState({ users: [], loading: false });
 
-  // Set alert
   setAlert = (msg, type) => {
     this.setState({ alert: { msg: msg, type: type } });
-
-    // make alert only show up for 5 seconds
     setTimeout(() => this.setState({ alert: null }), 5000);
   };
 
