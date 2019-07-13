@@ -6,3 +6,7 @@ Refactor using React Hooks or Redux,
 Deploy on AWS or Netlify, 
 Make a version for React Native,
 Deploy mobile version
+
+### Running the app 
+
+npm start 
