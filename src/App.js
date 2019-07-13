@@ -55,6 +55,7 @@ class App extends Component {
 
 
     return (
+      <Router>
       <div className="App">
         <Navbar />
         <div className="container">
@@ -68,6 +69,7 @@ class App extends Component {
           <Users loading={loading} users={users} />
         </div>
       </div>
+      </Router>
     );
   }
 }
