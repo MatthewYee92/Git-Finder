@@ -2,6 +2,10 @@
 
 App to search for and hire software engineers for your project. You can also view their work on Github.
 
+## Link to beta test below
+
+http://ec2-18-216-124-210.us-east-2.compute.amazonaws.com:3000/
+
 ## ToDos
 
 Refactor using React Hooks or Redux, 
